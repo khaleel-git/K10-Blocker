@@ -1,5 +1,5 @@
 ('C:\\Users\\emahkah\\OneDrive - '
- 'Ericsson\\Documents\\GitHub\\Khaleel_Por_Blocker\\build\\K10_Blocker\\PYZ-00.pyz',
+ 'Ericsson\\Documents\\GitHub\\K10-Blocker\\build\\K10_Blocker\\PYZ-00.pyz',
  [('IPython',
    'C:\\Python3\\Lib\\site-packages\\IPython\\__init__.py',
    'PYMODULE'),

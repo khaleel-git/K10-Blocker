@@ -14,7 +14,6 @@ def get_active_window_title():
     title = win32gui.GetWindowText(window)
     return title
 
-# sing_bad_words = ['pornography','xnxx','xvideos','anal sex','porn']
 def find_and_close_window(keywords):
     while True:
         # Take a screenshot
@@ -29,16 +28,14 @@ def find_and_close_window(keywords):
             pattern = r'\b' + re.escape(keyword) + r'\b'
             if re.search(pattern, text_on_screen, re.IGNORECASE):
                 window_title = get_active_window_title()
-                print(f"Keyword '{keyword}' found on the screen in window: '{window_title}'!\n")
+                # print(f"Keyword '{keyword}' found on the screen in window: '{window_title}'!\n")
                 with open("hit_keywords.txt", "a") as fd:
                     fd.write(f"{keyword} blocked! on Screen: {window_title} \n")
                 # Simulate pressing Alt+F4 to close the active window
-                if window_title not in ['K10_Blocker',r'C:\Users\emahkah\OneDrive - Ericsson\Documents\GitHub\Khaleel_Por_Blocker\dist\K10_Blocker\K10_Blocker.exe']:
+                time.sleep(2)
+                if window_title not in ['K10_Blocker',r'C:\Users\emahkah\OneDrive - Ericsson\Documents\GitHub\Khaleel_Por_Blocker\dist\K10_Blocker\K10_Blocker.exe',r'MINGW64:/c/Users/emahkah/OneDrive - Ericsson/Documents/GitHub/K10-Blocker',r'MINGW64:\c\Users\emahkah\OneDrive - Ericsson\Documents\GitHub\K10-Blocker','K10_Blocker.py - Visual Studio Code']:
                     pyautogui.hotkey('alt', 'f4')
-                # print("Window closed.")
-                # return  # Exit the function after closing the window
-
-        # print("No keywords found on the screen. Waiting for the next check...")
+                    time.sleep(3)
         time.sleep(2)
 
 
@@ -50,7 +47,6 @@ with open("single_bad_keywords_cloud.json", "r") as fd1:
 with open("multi_bad_keywords_cloud.json", "r") as fd2:
     multi_keyword_occean = json.load(fd2)
 
-
 single_list = []
 for k,v in single_keyword_occean.items():
     for w in single_keyword_occean[k]:
@@ -61,10 +57,13 @@ for k,v in multi_keyword_occean.items():
     for w in multi_keyword_occean[k]:
         multi_list.append(w)
 
-print(f"single_list: {len(single_list)}")
-print(f"multi_list: {len(multi_list)}")
+# print(f"single_list: {len(single_list)}")
+# print(f"multi_list: {len(multi_list)}")
 
-# # Call the function with the set of keywords
-# while True:
-#     time.sleep(2)
-#     find_and_close_window(keyword_occean)
+keywords = single_list + multi_list
+print(f"K10 Database: {len(keywords)}")
+
+# Call the function with the set of keywords
+while True:
+    time.sleep(2)
+    find_and_close_window(keywords)

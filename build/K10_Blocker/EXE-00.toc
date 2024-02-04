@@ -1,5 +1,5 @@
 ('C:\\Users\\emahkah\\OneDrive - '
- 'Ericsson\\Documents\\GitHub\\Khaleel_Por_Blocker\\build\\K10_Blocker\\K10_Blocker.exe',
+ 'Ericsson\\Documents\\GitHub\\K10-Blocker\\build\\K10_Blocker\\K10_Blocker.exe',
  True,
  False,
  True,
@@ -31,31 +31,31 @@
  None,
  None,
  'C:\\Users\\emahkah\\OneDrive - '
- 'Ericsson\\Documents\\GitHub\\Khaleel_Por_Blocker\\build\\K10_Blocker\\K10_Blocker.pkg',
+ 'Ericsson\\Documents\\GitHub\\K10-Blocker\\build\\K10_Blocker\\K10_Blocker.pkg',
  [('pyi-contents-directory _internal', '', 'OPTION'),
   ('PYZ-00.pyz',
    'C:\\Users\\emahkah\\OneDrive - '
-   'Ericsson\\Documents\\GitHub\\Khaleel_Por_Blocker\\build\\K10_Blocker\\PYZ-00.pyz',
+   'Ericsson\\Documents\\GitHub\\K10-Blocker\\build\\K10_Blocker\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
    'C:\\Users\\emahkah\\OneDrive - '
-   'Ericsson\\Documents\\GitHub\\Khaleel_Por_Blocker\\build\\K10_Blocker\\localpycs\\struct.pyc',
+   'Ericsson\\Documents\\GitHub\\K10-Blocker\\build\\K10_Blocker\\localpycs\\struct.pyc',
    'PYMODULE'),
   ('pyimod01_archive',
    'C:\\Users\\emahkah\\OneDrive - '
-   'Ericsson\\Documents\\GitHub\\Khaleel_Por_Blocker\\build\\K10_Blocker\\localpycs\\pyimod01_archive.pyc',
+   'Ericsson\\Documents\\GitHub\\K10-Blocker\\build\\K10_Blocker\\localpycs\\pyimod01_archive.pyc',
    'PYMODULE'),
   ('pyimod02_importers',
    'C:\\Users\\emahkah\\OneDrive - '
-   'Ericsson\\Documents\\GitHub\\Khaleel_Por_Blocker\\build\\K10_Blocker\\localpycs\\pyimod02_importers.pyc',
+   'Ericsson\\Documents\\GitHub\\K10-Blocker\\build\\K10_Blocker\\localpycs\\pyimod02_importers.pyc',
    'PYMODULE'),
   ('pyimod03_ctypes',
    'C:\\Users\\emahkah\\OneDrive - '
-   'Ericsson\\Documents\\GitHub\\Khaleel_Por_Blocker\\build\\K10_Blocker\\localpycs\\pyimod03_ctypes.pyc',
+   'Ericsson\\Documents\\GitHub\\K10-Blocker\\build\\K10_Blocker\\localpycs\\pyimod03_ctypes.pyc',
    'PYMODULE'),
   ('pyimod04_pywin32',
    'C:\\Users\\emahkah\\OneDrive - '
-   'Ericsson\\Documents\\GitHub\\Khaleel_Por_Blocker\\build\\K10_Blocker\\localpycs\\pyimod04_pywin32.pyc',
+   'Ericsson\\Documents\\GitHub\\K10-Blocker\\build\\K10_Blocker\\localpycs\\pyimod04_pywin32.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
    'C:\\Python3\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
@@ -86,12 +86,12 @@
    'PYSOURCE'),
   ('K10_Blocker',
    'C:\\Users\\emahkah\\OneDrive - '
-   'Ericsson\\Documents\\GitHub\\Khaleel_Por_Blocker\\K10_Blocker.py',
+   'Ericsson\\Documents\\GitHub\\K10-Blocker\\K10_Blocker.py',
    'PYSOURCE')],
  [],
  False,
  False,
- 1707068504,
+ 1707079383,
  [('run.exe',
    'C:\\Python3\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')],
