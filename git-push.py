@@ -10,6 +10,7 @@ os.chdir(repo_path)
 # Git commands
 # {datetime.datetime.now().strftime('%Y-%m-%d_%H:%M:%S')}
 try:
+    os.system("pyinstaller --onefile K10_Blocker.py -y")
     os.system("git add .")
     os.system(f"git commit -m {datetime.datetime.now().strftime('%Y-%m-%d_%H:%M:%S')}")
     os.system("git pull")
