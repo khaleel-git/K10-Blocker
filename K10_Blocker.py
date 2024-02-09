@@ -10,7 +10,7 @@ import datetime
 
 working_dir = "C:\\Users\\emahkah\\OneDrive - Ericsson\\Documents\\GitHub\\K10-Blocker\\"
 # Set the path to the Tesseract executable
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\emahkah\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\emahkah\OneDrive - Ericsson\Documents\GitHub\K10-Blocker\Tesseract-OCR\tesseract.exe'
 
 def get_active_window_title():
     window = win32gui.GetForegroundWindow()
