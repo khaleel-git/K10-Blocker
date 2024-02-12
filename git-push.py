@@ -3,6 +3,8 @@ import datetime,shutil
 
 # working dir
 working_dir = 'C:\\Users\\emahkah\\OneDrive - Ericsson\\Documents\\GitHub\\K10-Blocker\\'
+source_exe = "C:\\Users\\emahkah\\OneDrive - Ericsson\\Documents\\GitHub\\K10-Blocker\\dist\K10_Blocker.exe"
+dest_exe = "C:\\Program Files (x86)\\K10_Blocker\\K10_Blocker.exe"
 # Change directory
 repo_path = working_dir
 os.chdir(repo_path)
@@ -19,3 +21,11 @@ try:
     print("Git operations completed successfully")
 except Exception as e:
     print("Error during git operations:", e)
+
+try:
+    shutil.copy(source_exe, dest_exe)
+    print("File copied successfully.")
+# If source and destination are same
+except shutil.SameFileError:
+    print("Source and destination represents the same file.")
+
