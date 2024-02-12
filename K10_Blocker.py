@@ -38,7 +38,9 @@ def find_and_close_window(keywords):
                 time.sleep(2)
                 # if window_title not in ['K10_Blocker',r'C:\Users\emahkah\OneDrive - Ericsson\Documents\GitHub\Khaleel_Por_Blocker\dist\K10_Blocker\K10_Blocker.exe',r'MINGW64:/c/Users/emahkah/OneDrive - Ericsson/Documents/GitHub/K10-Blocker',r'MINGW64:\c\Users\emahkah\OneDrive - Ericsson\Documents\GitHub\K10-Blocker','K10_Blocker.py - Visual Studio Code']:
                 if window_title == get_active_window_title():
-                    pyautogui.hotkey('alt', 'f4')
+                    print(get_active_window_title())
+                    # pyautogui.hotkey('alt', 'f4')
+                    print("hello")
                     time.sleep(3)
                     break
         time.sleep(2)
