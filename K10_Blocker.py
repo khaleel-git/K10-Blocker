@@ -36,15 +36,16 @@ def find_and_close_window(keywords):
                     fd.write(f"{keyword}, {window_title}, {datetime.datetime.now()} \n")
                 # Simulate pressing Alt+F4 to close the active window
                 time.sleep(2)
-                # if window_title not in ['K10_Blocker',r'C:\Users\emahkah\OneDrive - Ericsson\Documents\GitHub\Khaleel_Por_Blocker\dist\K10_Blocker\K10_Blocker.exe',r'MINGW64:/c/Users/emahkah/OneDrive - Ericsson/Documents/GitHub/K10-Blocker',r'MINGW64:\c\Users\emahkah\OneDrive - Ericsson\Documents\GitHub\K10-Blocker','K10_Blocker.py - Visual Studio Code']:
-                if window_title == get_active_window_title():
-                    # print(get_active_window_title())
-                    while get_active_window_title == "C:\Program Files (x86)\K10_Blocker\K10_Blocker.exe":
+                while True:
+                    if "K10_Blocker.exe" in get_active_window_title:                          
                         time.sleep(2)
+                    else:
+                        break
+                if window_title == get_active_window_title():
                     print(f"Screen: {get_active_window_title} is blocked!")
                     pyautogui.hotkey('alt', 'f4')
-                    time.sleep(3)
-                    break
+                time.sleep(3)
+                break
         time.sleep(2)
 
 
