@@ -22,10 +22,10 @@ try:
 except Exception as e:
     print("Error during git operations:", e)
 
-# try:
-#     shutil.copy(source_exe, dest_exe)
-#     print("File copied successfully.")
-# # If source and destination are same
-# except shutil.SameFileError:
-#     print("Source and destination represents the same file.")
+try:
+    shutil.copy(source_exe, dest_exe)
+    print("File copied successfully.")
+# If source and destination are same
+except shutil.SameFileError:
+    print("Source and destination represents the same file.")
 
