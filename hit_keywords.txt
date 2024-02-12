@@ -107,3 +107,13 @@ xnxx, C:\Windows\System32\cmd.exe - python  K10_Blocker.py, 2024-02-12 12:30:42.
 xnxx, C:\Windows\System32\cmd.exe - python  K10_Blocker.py, 2024-02-12 12:30:47.182915 
 xnxx, C:\Windows\System32\cmd.exe - python  K10_Blocker.py, 2024-02-12 12:30:51.950479 
 xnxx, C:\Windows\System32\cmd.exe - python  K10_Blocker.py, 2024-02-12 12:31:29.207751 
+xnxx, C:\Program Files (x86)\K10_Blocker\K10_Blocker.exe, 2024-02-12 12:42:09.166217 
+xnxx, C:\Program Files (x86)\K10_Blocker\K10_Blocker.exe, 2024-02-12 12:43:19.870327 
+xxx, K10-Blocker/bad_words.txt at master · khaleel-git/K10-Blocker - Google Chrome, 2024-02-12 12:44:36.683776 
+boobs, hit_keywords.txt - Notepad, 2024-02-12 12:44:57.363866 
+boobs, C:\Program Files (x86)\K10_Blocker\K10_Blocker.exe, 2024-02-12 12:45:08.422359 
+boobs, hit_keywords.txt - Notepad, 2024-02-12 12:45:47.338819 
+xnxx, hit_keywords.txt - Notepad, 2024-02-12 12:47:04.291965 
+xnxx, https://www.google.com/search?q=xnxx&oq=xnxx&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzY0NmowajGoAgCwAgA&sourceid=chrome&ie=UTF-8 - Google Chrome, 2024-02-12 12:47:24.248715 
+fucking, hot fuck - Google Search - Google Chrome, 2024-02-12 12:48:01.521236 
+boobs, hit_keywords.txt - Notepad, 2024-02-12 12:48:19.116543 
