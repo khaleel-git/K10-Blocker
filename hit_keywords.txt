@@ -98,3 +98,5 @@ xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysi
 xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:27:56.881202 
 xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:28:02.205971 
 xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:28:07.518351 
+xnxx, C:\Program Files (x86)\K10_Blocker\K10_Blocker.exe, 2024-02-12 12:28:39.838657 
+xnxx, C:\Program Files (x86)\K10_Blocker\K10_Blocker.exe, 2024-02-12 12:28:45.165120 
