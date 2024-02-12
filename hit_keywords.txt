@@ -49,3 +49,52 @@ xxx, K10-Blocker/bad_words.txt at master · khaleel-git/K10-Blocker - Google Chro
 cum, C:\Program Files (x86)\K10_Blocker\K10_Blocker.exe, 2024-02-12 12:09:30.211231 
 cum, C:\Program Files (x86)\K10_Blocker\K10_Blocker.exe, 2024-02-12 12:09:37.912577 
 cum, Select C:\Program Files (x86)\K10_Blocker\K10_Blocker.exe, 2024-02-12 12:09:45.608455 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:23:33.709790 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:23:38.719303 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:23:43.846861 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:23:49.000277 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:23:54.165479 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:23:59.349984 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:24:04.562107 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:24:09.784814 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:24:15.026737 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:24:20.299400 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:24:25.604332 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:24:30.925906 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:24:36.286206 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:24:41.641922 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:24:47.082371 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:24:52.573408 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:24:58.081460 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:25:03.639277 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:25:09.210290 
+xnxx, Salman Shah | Microsoft Teams classic, 2024-02-12 12:25:14.825219 
+xnxx, K10-Blocker/bad_words.txt at master · khaleel-git/K10-Blocker - Google Chrome, 2024-02-12 12:25:20.143637 
+xnxx, K10-Blocker/bad_words.txt at master · khaleel-git/K10-Blocker - Google Chrome, 2024-02-12 12:25:25.872068 
+xnxx, Beenish, Maida, +10 | Microsoft Teams classic, 2024-02-12 12:25:31.258628 
+xnxx, Beenish, Maida, +10 | Microsoft Teams classic, 2024-02-12 12:25:36.600309 
+xxx, Downloads, 2024-02-12 12:25:41.989573 
+xnxx, Downloads, 2024-02-12 12:25:47.330872 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:25:52.671496 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:25:57.989948 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:26:03.334737 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:26:08.682459 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:26:13.988934 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:26:19.325128 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:26:24.677383 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:26:30.010511 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:26:35.345677 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:26:40.715829 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:26:46.027300 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:26:51.339458 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:26:56.689844 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:27:02.028459 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:27:07.383025 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:27:30.217737 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:27:35.597643 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:27:40.914147 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:27:46.219487 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:27:51.555158 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:27:56.881202 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:28:02.205971 
+xnxx, 100.69.227.8 AWS (100.69.227.8) - Remote Desktop Connection Manager - Sysinternals: www.sysinternals.com, 2024-02-12 12:28:07.518351 
