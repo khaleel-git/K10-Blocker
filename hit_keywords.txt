@@ -31,3 +31,7 @@ porn, , 2024-02-08 21:34:01.025386
 xnxx, Task Scheduler, 2024-02-08 21:34:03.030164 
 xxx, Home / X - Google Chrome, 2024-02-08 22:17:56.436528 
 xxx, Umar Ahmad Siddiqui (@Omarology_) / X - Google Chrome, 2024-02-08 23:15:09.015177 
+porn, porn_blocker Properties (Local Computer), 2024-02-12 11:52:16.220613 
+xxx, K10-Blocker/bad_words.txt at master · khaleel-git/K10-Blocker - Google Chrome, 2024-02-12 11:52:44.992479 
+xxx, K10-Blocker/bad_words.txt at master · khaleel-git/K10-Blocker - Google Chrome, 2024-02-12 11:52:52.681130 
+xnxx, C:\Program Files (x86)\K10_Blocker\K10_Blocker.exe, 2024-02-12 11:52:59.717691 
