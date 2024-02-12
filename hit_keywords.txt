@@ -38,3 +38,14 @@ xnxx, C:\Program Files (x86)\K10_Blocker\K10_Blocker.exe, 2024-02-12 11:52:59.71
 xnxx, C:\Program Files (x86)\K10_Blocker\K10_Blocker.exe, 2024-02-12 11:55:13.816238 
 xnxx, C:\Windows\System32\cmd.exe - K10_Blocker.exe, 2024-02-12 11:57:06.555483 
 xnxx, C:\Program Files (x86)\K10_Blocker\K10_Blocker.exe, 2024-02-12 11:58:28.739721 
+xnxx, Beenish, Maida, +10 | Microsoft Teams classic, 2024-02-12 12:08:27.546318 
+xnxx, Downloads, 2024-02-12 12:08:35.231529 
+xnxx, Downloads, 2024-02-12 12:08:43.152048 
+xnxx, Downloads, 2024-02-12 12:08:49.201122 
+xnxx, Downloads, 2024-02-12 12:08:56.942860 
+xnxx, K10_Blocker.py - Visual Studio Code, 2024-02-12 12:09:04.675331 
+xnxx, Downloads, 2024-02-12 12:09:10.777963 
+xxx, K10-Blocker/bad_words.txt at master · khaleel-git/K10-Blocker - Google Chrome, 2024-02-12 12:09:18.660514 
+cum, C:\Program Files (x86)\K10_Blocker\K10_Blocker.exe, 2024-02-12 12:09:30.211231 
+cum, C:\Program Files (x86)\K10_Blocker\K10_Blocker.exe, 2024-02-12 12:09:37.912577 
+cum, Select C:\Program Files (x86)\K10_Blocker\K10_Blocker.exe, 2024-02-12 12:09:45.608455 
