@@ -1,4 +1,3 @@
-```markdown
 # K10-Blocker
 
 ## Project Description
