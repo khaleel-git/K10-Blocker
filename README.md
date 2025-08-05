@@ -23,7 +23,7 @@ This project is likely a Python application, so these instructions assume you ha
 
 ```
 
-git clone [https://github.com/khaleel-git/K10-Blocker.git](https://github.com/khaleel-git/K10-Blocker.git)
+git clone https://github.com/khaleel-git/K10-Blocker.git
 cd K10-Blocker
 
 ```
@@ -97,10 +97,6 @@ We welcome contributions! If you have a suggestion for an improvement, a bug rep
 4. Push to the branch (`git push origin feature/your-feature-name`).
 
 5. Open a Pull Request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
 
 ## Contact
 
