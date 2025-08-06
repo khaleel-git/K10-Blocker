@@ -1,4 +1,4 @@
-# K10 Blocker 🚫
+# K10 Web Protection (Ex: K9 Web Protection) 🚫
 
 A lightweight **porn blocker** for Windows that uses OCR and keyword/domain filtering to detect and block inappropriate content.
 
