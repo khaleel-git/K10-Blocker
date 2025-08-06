@@ -8,7 +8,6 @@ import re
 # Import all necessary libraries for both screen monitoring and GUI blocking.
 import pyautogui
 import pytesseract
-import win32gui
 
 from PyQt6.QtCore import Qt, QUrl, QTimer, pyqtSignal
 from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QWidget

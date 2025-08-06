@@ -2,9 +2,9 @@ import os
 import datetime,shutil
 
 # working dir
-working_dir = 'C:\\Users\\emahkah\\OneDrive - Ericsson\\Documents\\GitHub\\K10-Blocker\\'
-source_exe = "C:\\Users\\emahkah\\OneDrive - Ericsson\\Documents\\GitHub\\K10-Blocker\\dist\K10_Blocker.exe"
-dest_exe = "C:\\Program Files (x86)\\K10_Blocker\\K10_Blocker.exe"
+working_dir = ''
+source_exe = ""
+dest_exe = ""
 # Change directory
 repo_path = working_dir
 os.chdir(repo_path)

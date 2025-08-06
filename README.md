@@ -1,104 +1,113 @@
-# K10-Blocker
+# K10 Blocker 🚫
 
-## Project Description
+A lightweight **porn blocker** for Windows that uses OCR and keyword/domain filtering to detect and block inappropriate content.
 
-K10-Blocker is a utility designed to block or restrict certain processes or applications on a system. It's built to provide users with fine-grained control over their environment, ensuring that specified software or services do not run. This tool is particularly useful for managing resources, enhancing security, or maintaining system stability by preventing unwanted executables from launching.
+## ✨ Features
+- Blocks domains and keywords defined in generated JSON lists.
+- Screen monitoring with OCR (via Tesseract).
+- Runs silently in the background (no console window).
+- Packaged into a standalone `.exe` using **PyInstaller**.
 
-## Features
+---
 
-* **Process Blocking:** Dynamically block specific `.exe` or other executable files from running.
+## 📦 Requirements
 
-* **System-level Integration:** Operates at a low level to effectively prevent applications from launching.
+Install dependencies with:
 
-* **Easy Configuration:** Simple configuration file to add or remove applications from the block list.
-
-* **Cross-platform (if applicable):** Designed with cross-platform compatibility in mind.
-
-## Installation
-
-This project is likely a Python application, so these instructions assume you have Python and `pip` installed.
-
-1. **Clone the Repository**
-   Start by cloning the repository to your local machine:
-
-```
-
-git clone https://github.com/khaleel-git/K10-Blocker.git
-cd K10-Blocker
-
-```
-
-2. **Create a Virtual Environment (Recommended)**
-It's best practice to work within a virtual environment to manage dependencies:
-
-```
-
-# On Windows
-
-python -m venv venv
-venv\\Scripts\\activate
-
-# On macOS/Linux
-
-python3 -m venv venv
-source venv/bin/activate
-
-```
-
-3. **Install Dependencies**
-Install all required packages using `pip`. You will need a `requirements.txt` file in your repository for this to work.
-
-```
-
+```bash
 pip install -r requirements.txt
+````
 
+### Dependencies
+
+* [pytesseract](https://pypi.org/project/pytesseract/) – OCR
+* [opencv-python](https://pypi.org/project/opencv-python/) – screenshot / image processing
+* [pyautogui](https://pypi.org/project/PyAutoGUI/) – screenshots & automation
+* [keyboard](https://pypi.org/project/keyboard/) – hotkey monitoring
+* [psutil](https://pypi.org/project/psutil/) – process monitoring
+* [pyinstaller](https://pypi.org/project/pyinstaller/) – build executable
+
+⚠️ **Tesseract OCR** must also be installed on Windows separately:
+👉 [Download Tesseract OCR (UB Mannheim build)](https://github.com/UB-Mannheim/tesseract/wiki)
+
+After installation, make sure `tesseract.exe` (e.g. `C:\Program Files\Tesseract-OCR\tesseract.exe`) is in your PATH.
+
+---
+
+## 🛠️ Usage
+
+### 1. Generate keyword/domain lists
+
+Run the helper script to process your word lists:
+
+```bash
+python build_bad_keywords.py
 ```
 
-## Usage
+This generates files such as:
 
-Once installed, you can run the application from the command line.
+* `single_bad_keywords_cloud.json`
+* `bad_keywords_cloud.json`
+* `domains.json`
 
-### Basic Execution
+---
 
-To start the blocker, simply run the main script.
+### 2. Run directly (Python)
 
+```bash
+python K10_Blocker.py
 ```
 
-python main.py
+---
 
+### 3. Build EXE with PyInstaller
+
+```bash
+pyinstaller --onefile --noconsole K10_Blocker.py
 ```
 
-### Configuration
+* `--onefile` → single portable exe
+* `--noconsole` → hides the console window (runs silently)
 
-The list of applications to block is controlled by a configuration file (e.g., `config.json` or `blocked_apps.txt`). Open this file and add the filenames of the executables you want to block, one per line.
+The `.exe` will be created in the `dist/` folder.
+
+---
+
+### 4. Auto-run on Startup (recommended)
+
+Instead of Windows services, use **Task Scheduler**:
+
+1. Open **Task Scheduler** → *Create Task*
+2. Trigger: **At logon**
+3. Action: **Start Program** → select your `K10_Blocker.exe`
+4. Check **Run with highest privileges**
+5. Done ✅ (it will start hidden at every login)
+
+---
+
+## 📂 Project Structure
 
 ```
-
-# Example content of a configuration file
-
-K10\_Blocker.exe
-another\_app.exe
-unwanted\_service.exe
-
+K10-Blocker/
+│
+├── lists/                  # Raw keyword/domain text files
+│
+├── build_bad_keywords.py   # Script to build JSON keyword/domain lists
+├── K10_Blocker.py          # Main blocker logic
+├── requirements.txt        # Python dependencies
+└── README.md               # Documentation
 ```
 
-The application will read this file on startup and block any processes that match the names listed.
+---
 
-## Contributing
+## ⚡ Notes
 
-We welcome contributions! If you have a suggestion for an improvement, a bug report, or want to add a new feature, please feel free to:
+* Runs in the background with no taskbar icon.
+* JSON lists must be regenerated if you update your raw lists.
+* Use `tasklist | findstr K10_Blocker.exe` to check if running.
 
-1. Fork the repository.
+---
 
-2. Create a new branch (`git checkout -b feature/your-feature-name`).
+## 📜 License
 
-3. Make your changes and commit them (`git commit -m 'Add new feature'`).
-
-4. Push to the branch (`git push origin feature/your-feature-name`).
-
-5. Open a Pull Request.
-
-## Contact
-
-For questions or issues, please open an issue on the GitHub repository.
-```
+MIT License. Created for educational and personal use only.

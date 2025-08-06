@@ -1,0 +1,4 @@
+pytesseract
+pyautogui
+psutil
+pyinstaller
